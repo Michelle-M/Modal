@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FEAC5E;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #4BC0C8, #C779D0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #4BC0C8, #C779D0, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#botonModal {
+    width: 200px;
+    height: 75px;
+    border-radius: 10px;
+    background-color: whitesmoke;
+    border: #FEAC5E solid 3px;
+    color: #C779D0;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+#botonModal:hover {
+    background-color: cornsilk;
+}
+
+#modalWraper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+#modalContainer {
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    border-radius: 10px;
+    border: solid 1px grey;
+}
+
+.otroContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top {
+    width: 380px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: dimgray;
+    border-bottom: solid 1px lightgray;
+}
+
+.fas.fa-times {
+    color: gray;
+    font-size: 17px;
+}
+
+.fas.fa-times:hover {
+    color: #544F4F;
+}
+
+.body {
+    width: 380px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    border-bottom: solid 1px lightgray;
+}
+
+.bottom {
+    width: 380px;
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#botonCerrarModal {
+    font-family: 'Lato', sans-serif;
+    background-color: gray;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    height: 30px;
+    margin-right: 10px;
+}
+
+#botonCerrarModal:hover {
+    background-color: #544F4F;
+}
+
+#botonGuardarModal {
+    font-family: 'Lato', sans-serif;
+    background-color: #2F70E9;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    height: 30px;
+}
+
+#botonGuardarModal:hover {
+    background-color: #1451C1;
+}
+
+.displayNone {
+    display: none !important; /*ACA SE JUSTIFICA USARLO*/
+}
